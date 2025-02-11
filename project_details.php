@@ -55,7 +55,7 @@ try {
                 <label for="investmentAmount" class="block text-gray-700">Montant à investir:</label>
                 <input type="number" id="investmentAmount" name="investmentAmount" class="w-full p-2 border border-gray-300 rounded mt-1 focus:outline-none focus:ring-2 focus:ring-green-500" required>
             </div>
-            <a href="target_page.php?project_id=<?php echo htmlspecialchars($project['id']); ?>" class="bg-green-700 text-white p-2 rounded mt-4 hover:bg-green-800 transition duration-200">Investir</a>
+            <a href="donate.php?project_id=<?php echo htmlspecialchars($project['id']); ?>" class="bg-green-700 text-white p-2 rounded mt-4 hover:bg-green-800 transition duration-200">Investir</a>
         </form>
     </div>
 </body>
